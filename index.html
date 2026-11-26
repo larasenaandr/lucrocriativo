@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-venda="aberta">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- PRÉVIA: noindex. Na produção trocar por index,follow -->
+<meta name="robots" content="noindex,nofollow">
+<meta name="color-scheme" content="only light">
+<meta name="format-detection" content="telephone=no">
+<!-- estado da venda antes da 1ª pintura (relógio do aparelho); o venda.js confirma com a hora do servidor -->
+<script>!function(r,n){r.setAttribute('data-venda',n<Date.parse('2026-11-26T19:00:00-03:00')?'antes':n<Date.parse('2027-01-16T10:00:00-03:00')?'aberta':'encerrada')}(document.documentElement,Date.now())</script>
+<title>Imersão Lucro Criativo · sábado, 16/01 · ao vivo e online</title>
+<meta name="description" content="Aprenda a usar IA além do prompt pra ganhar dinheiro com a sua criatividade. Um sábado inteiro com o Hec e o time da Koko, das 10h às 18h, por R$ 57.">
+<meta name="theme-color" content="#0100FE">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Imersão Lucro Criativo · sábado, 16/01">
+<meta property="og:description" content="Só saber de prompt não coloca mais dinheiro no seu bolso. Um sábado inteiro com o Hec e o time da Koko, das 10h às 18h, por R$ 57.">
+<meta property="og:image" content="img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://checkout.koko.ag">
+<link rel="preload" href="img/LucroCriativo_principal_anybody_moeda_pixel_branco.svg" as="image">
+<link rel="stylesheet" href="css/lp.css?v=2">
+</head>
+<body>
+
+<a class="pular" href="#ingresso">Ir direto para o ingresso</a>
+
+<!-- aviso antes das 19h de 26/11: o checkout ainda mostra "venda fechada" -->
+<div class="aviso-venda" id="aviso-venda" role="dialog" aria-labelledby="aviso-t" hidden>
+  <div class="aviso-caixa">
+    <p class="aviso-tc" aria-hidden="true"><span class="aovivo">●</span> <span data-falta>--:--:--</span></p>
+    <p class="aviso-t" id="aviso-t">A venda abre hoje, 26/11, às 19h, ao vivo na live do Hec e do Murilo.</p>
+    <div class="aviso-acoes">
+      <a class="btn" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Abertura%20das%20vendas%20%C2%B7%20Imers%C3%A3o%20Lucro%20Criativo&amp;dates=20261126T220000Z/20261126T230000Z&amp;ctz=America/Sao_Paulo&amp;details=Live%20do%20Hec%20e%20do%20Murilo%20%C3%A0s%2019h.%20A%20venda%20abre%20na%20live." target="_blank" rel="noopener">Me lembrar às 19h<span class="btn-chip"><i class="px" data-px="seta"></i></span></a>
+      <a class="aviso-link" href="lembrete-abertura.ics" download>Baixar lembrete (.ics)</a>
+      <a class="aviso-link" href="https://checkout.koko.ag/lucro-criativo" data-compra="aviso" data-forca>Já passou das 19h? Abrir o pagamento</a>
+    </div>
+    <button type="button" class="aviso-fecha" data-fecha-aviso aria-label="Fechar">×</button>
+  </div>
+</div>
+
+<!-- barra de compra (celular) -->
+<div class="buybar" id="buybar" aria-hidden="true">
+  <span class="buybar-t">R$ 57 · sábado, 16/01</span>
+  <a class="btn btn-sm" data-compra="barra" href="https://checkout.koko.ag/lucro-criativo" tabindex="-1"><span class="se-aberta">Quero meu ingresso</span><span class="se-antes">Abre às 19h · <span data-falta>--:--:--</span></span><span class="se-encerrada">Encerradas</span></a>
+</div>
+
+<!-- 01 · TOPO -->
+<header class="heroi" id="topo">
+  <canvas class="codigo" data-codigo data-codigo-fundo="#0100FE" data-codigo-cor="#7F7FFF" data-codigo-opacidade="0.42" data-codigo-velocidade="0.6" aria-hidden="true"></canvas>
+  <script>(function(c){var e=Math.max(10,Math.min(14,Math.round(innerWidth*0.0085)));c.setAttribute('data-codigo-escala',e)})(document.currentScript.previousElementSibling)</script>
+  <div class="heroi-grid">
+    <div class="heroi-txt">
+      <p class="sr">IMERSÃO LUCRO CRIATIVO · SÁBADO, 16/01 · AO VIVO E ONLINE</p>
+      <img class="heroi-logo" src="img/LucroCriativo_principal_anybody_moeda_pixel_branco.svg" alt="Imersão Lucro Criativo · vá além do prompt" width="1200" height="587">
+      <ul class="chips" aria-label="Data e formato">
+        <li><i class="px" data-px="calendario" aria-hidden="true"></i>sábado, 16/01 · 10h às 18h</li>
+        <li><i class="px" data-px="tela" aria-hidden="true"></i>ao vivo e online</li>
+      </ul>
+      <h1 class="h1">Só saber de prompt <mark>não coloca mais dinheiro</mark> no seu bolso.</h1>
+      <p class="sub">Aprenda a usar IA além do prompt pra ganhar dinheiro com a sua criatividade. Um sábado inteiro com o Hec e o time da Koko, das 10h às 18h, por R$ 57.</p>
+      <div class="cta">
+        <a class="btn btn-branco" data-compra="topo" href="https://checkout.koko.ag/lucro-criativo"><span class="btn-t"><span class="se-aberta">Quero meu ingresso por R$&nbsp;57</span><span class="se-antes">Abre hoje às 19h<span class="falta"> · faltam <span data-falta>--:--:--</span></span></span><span class="se-encerrada">Vendas encerradas</span></span><span class="btn-chip"><i class="px" data-px="seta"></i></span></a>
+        <p class="cta-linha">sábado, 16/01 · das 10h às 18h · ao vivo na Kampus · lote único</p>
+        <p class="cta-smk"><a href="https://kampus.koko.ag/retirar-ingresso/lucro-criativo-2027">É aluno do SMK? Seu ingresso é grátis. Retire aqui</a></p>
+      </div>
+    </div>
+    <div class="heroi-arte">
+      <canvas class="moeda-heroi" data-moeda-heroi aria-hidden="true"></canvas>
+      <div class="janela" aria-hidden="true">
+        <div class="janela-topo"><span class="pts"><b></b><b></b><b></b></span><span class="aovivo-tag"><span class="aovivo">●</span> ao vivo</span></div>
+        <div class="retrato retrato-heroi" data-retrato data-src="" data-poster="img/hec_retrato.jpg" data-modo="olhar" data-cor="azul"></div>
+      </div>
+      <div class="selo" aria-hidden="true">
+        <svg viewBox="0 0 200 200"><defs><path id="selo-c" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0"/></defs><text><textPath href="#selo-c">IMERSÃO LUCRO CRIATIVO · 16.01.2027 · AO VIVO ·</textPath></text></svg>
+        <i class="px px-moeda" data-px="faisca"></i>
+      </div>
+    </div>
+  </div></header>
+<div class="subida" data-subida data-de="#0100FE" data-para="#FFFFFF" data-cores="#0100FE,#FF5A1F,#FFFFFF" aria-hidden="true" style="height:calc(6*max(14px,2.2vw));background:linear-gradient(#0100FE calc(100% - max(14px,2.2vw)),#FFFFFF 0)"></div>
+
+<!-- faixa correndo -->
+<div class="fita" aria-hidden="true">
+  <div class="fita-trilho">
+    <span>5 ferramentas de IA</span><i class="px" data-px="faisca"></i><span>modelo de proposta com preço</span><i class="px" data-px="faisca"></i><span>passo a passo de cada ferramenta</span><i class="px" data-px="faisca"></i><span>sábado, 16/01 · das 10h às 18h</span><i class="px" data-px="faisca"></i><span>ao vivo na Kampus</span><i class="px" data-px="faisca"></i><span>não precisa saber programar</span><i class="px" data-px="faisca"></i>
+    <span>5 ferramentas de IA</span><i class="px" data-px="faisca"></i><span>modelo de proposta com preço</span><i class="px" data-px="faisca"></i><span>passo a passo de cada ferramenta</span><i class="px" data-px="faisca"></i><span>sábado, 16/01 · das 10h às 18h</span><i class="px" data-px="faisca"></i><span>ao vivo na Kampus</span><i class="px" data-px="faisca"></i><span>não precisa saber programar</span><i class="px" data-px="faisca"></i>
+  </div>
+</div>
+
+<main>
+
+<!-- 02 · DOR + VIRADA -->
+<section class="s dor" id="dor" data-pontos>
+  <div class="cab">
+    <h2 class="h2" data-decode>Você já usa IA. Só que usa <mark>igual a todo mundo.</mark></h2>
+    <p class="lead">Abre o chat, pede um post, pede uma legenda, ajeita e posta. Entrega a mesma coisa de antes, só que mais rápido, e não ganha nenhum cliente a mais com isso.</p>
+  </div>
+  <div class="versus">
+    <article class="vs vs-post">
+      <figure class="chat" aria-label="Conversa com uma IA, com os pedidos que todo mundo faz">
+        <ol class="chat-msgs">
+          <li class="msg">faz uma legenda pra post de pizzaria</li>
+          <li class="msg">deixa mais criativa</li>
+          <li class="msg">agora com emoji</li>
+          <li class="msg">me dá mais 3 opções</li>
+        </ol>
+        <p class="chat-pensa" aria-hidden="true"><span class="spin">✻</span> pensando…</p>
+      </figure>
+      <div class="vs-txt">
+        <h3 class="h3">A IA que faz post</h3>
+        <ul class="lista">
+          <li><i class="px" data-px="x" aria-hidden="true"></i>Pede post e legenda.</li>
+          <li><i class="px" data-px="x" aria-hidden="true"></i>Entrega a mesma coisa, só que mais rápido.</li>
+          <li><i class="px" data-px="x" aria-hidden="true"></i>Faz o que o cliente já faz sozinho.</li>
+        </ul>
+      </div>
+    </article>
+    <span class="vs-seta" aria-hidden="true"><i class="px" data-px="seta"></i></span>
+    <article class="vs vs-cliente">
+      <figure class="vs-moeda" aria-hidden="true"><svg id="moeda-vs"></svg></figure>
+      <div class="vs-txt">
+        <h3 class="h3">A IA que traz cliente</h3>
+        <ul class="lista">
+          <li><i class="px" data-px="lupa" aria-hidden="true"></i>Acha cliente na sua cidade que precisa do que você faz.</li>
+          <li><i class="px" data-px="proposta" aria-hidden="true"></i>Monta proposta com escopo e preço pra cada cliente.</li>
+          <li><i class="px" data-px="renova" aria-hidden="true"></i>Entrega um serviço que o cliente paga todo mês.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+  <p class="lead virada">O seu cliente também tem IA. Ele abre o mesmo chat, pede a mesma legenda e faz o post sozinho, de graça. O que ele não consegue fazer sozinho é o resto: saber que serviço o negócio dele precisa, montar uma proposta que faça sentido e entregar todo mês com qualidade. É aí que a IA começa a dar dinheiro.</p>
+  <p class="frase" data-moeda-texto>Na mão do seu cliente, a IA faz um post. <span class="moeda-vao" aria-hidden="true"></span> <mark>Na sua, vira um serviço que ele paga todo mês.</mark></p>
+  <div class="cta cta-centro">
+    <p class="cta-frase">A IA você já tem. O que falta é saber colocar ela pra trabalhar no seu negócio.</p>
+    <a class="btn btn-azul" data-compra="meio" href="https://checkout.koko.ag/lucro-criativo"><span class="btn-t"><span class="se-aberta">Quero meu ingresso por R$&nbsp;57</span><span class="se-antes">Abre hoje às 19h<span class="falta"> · faltam <span data-falta>--:--:--</span></span></span><span class="se-encerrada">Vendas encerradas</span></span><span class="btn-chip"><i class="px" data-px="seta"></i></span></a>
+  </div>
+</section>
+
+<!-- faixas cruzadas: separam a dor do que você leva -->
+<div class="cruza" aria-hidden="true">
+  <div class="cruza-f cruza-a"><div class="fita-trilho"><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i></div></div>
+  <div class="cruza-f cruza-b"><div class="fita-trilho"><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i><span>Imersão Lucro Criativo</span><i class="px" data-px="faisca"></i></div></div>
+</div>
+
+<!-- 03 · O QUE VOCÊ LEVA -->
+<section class="s leva" id="leva" data-pontos>
+  <div class="cab">
+    <h2 class="h2" data-decode>Você sai com <mark>5 ferramentas de IA</mark> pra usar no seu trabalho a partir de segunda.</h2>
+  </div>
+  <ol class="caminho" aria-label="O caminho">
+    <li><i class="px" data-px="lupa" aria-hidden="true"></i><span>Acha o cliente</span></li>
+    <li><i class="px" data-px="proposta" aria-hidden="true"></i><span>Faz a proposta</span></li>
+    <li><i class="px" data-px="fecha" aria-hidden="true"></i><span>Fecha</span></li>
+    <li><i class="px" data-px="entrega" aria-hidden="true"></i><span>Entrega</span></li>
+    <li><i class="px" data-px="renova" aria-hidden="true"></i><span>Renova</span></li>
+  </ol>
+  <p class="pilula">Cada etapa com uma ferramenta de IA.</p>
+</section>
+
+<section class="s ferramentas" id="ferramentas" data-pontos>
+  <p class="lead centro">A imersão começa antes do sábado. Quem tem ingresso recebe a ferramenta de cada live na área da imersão, na Kampus.</p>
+  <ol class="passos" data-pilha>
+    <li class="passo"><span class="passo-n">1</span><p class="tag" data-live>live de 26/11, 19h, com Hec e Murilo</p><h3 class="h4">Achar cliente</h3><p>Uma ferramenta que procura negócios na sua cidade que precisam do que você faz. Você chega no cliente sabendo o que oferecer.</p></li>
+    <li class="passo"><span class="passo-n">2</span><p class="tag" data-live>live de 16/12, 19h, com Hec e Gab</p><h3 class="h4">Montar proposta</h3><p>Monta a proposta pra cada cliente, com escopo e preço, em vez de mandar a mesma tabela pra todo mundo.</p></li>
+    <li class="passo"><span class="passo-n">3</span><p class="tag" data-live>live de 06/01, 19h, com Hec e Isa</p><h3 class="h4">Roteiro de vídeo</h3><p>Escreve roteiro de vídeo em cima do negócio do cliente, pronto pra gravar.</p></li>
+    <li class="passo"><span class="passo-n">4</span><p class="tag tag-sab">sábado, 16/01</p><h3 class="h4">Carrossel</h3><p>Você usa junto com a gente: carrossel e imagens feitos ao vivo em cima de um negócio de verdade.</p></li>
+    <li class="passo"><span class="passo-n">5</span><p class="tag tag-sab">sábado, 16/01</p><h3 class="h4">Página</h3><p>Você vê uma página sendo montada do zero, na tela, e leva a ferramenta que montou.</p></li>
+  </ol>
+  <p class="mais-itens"><i class="px" data-px="mais" aria-hidden="true"></i>modelo de proposta com preço <i class="px" data-px="mais" aria-hidden="true"></i>passo a passo de cada ferramenta</p>
+</section>
+
+<!-- 04 · O SÁBADO -->
+<section class="s sabado" id="sabado" data-pontos>
+  <div class="sab-grid">
+    <div class="sab-cartao">
+      <h2 class="h2" data-decode>Um sábado inteiro, <mark>das 10h às 18h</mark>, ao vivo.</h2>
+      <ol class="grade-dia">
+        <li><time>10h</time><div><h3 class="h4">A oportunidade</h3><p>Os serviços com IA que o mercado já paga, e a base que as aulas soltas de prompt pulam: assistente, skill e ferramenta conectada.</p></div></li>
+        <li class="pausa"><time>12h</time><div><h3 class="h4">Pausa pro almoço</h3></div></li>
+        <li><time>13h</time><div><h3 class="h4">Fazer junto</h3><p>Carrossel e imagens com IA, feitos ao vivo em cima do negócio real de uma aluna da Koko. Você faz junto.</p></div></li>
+        <li><time>14h55</time><div><h3 class="h4">Demonstração</h3><p>Uma página montada do zero, na tela, do começo ao fim.</p></div></li>
+        <li><time>16h30</time><div><h3 class="h4">Fechamento</h3><p>O que fazer com tudo isso a partir de segunda, e a entrega final até as 18h.</p></div></li>
+      </ol>
+    </div>
+    <div class="sab-lado">
+      <div class="sab-tc" aria-hidden="true"><p class="tc-l"><span class="aovivo">●</span> sábado, 16/01</p><p class="tc" data-tc>10:00:00:00</p><div class="tc-fita"><span class="tc-m" data-tc-marca></span></div></div>
+      <p class="sab-azul"><span class="aovivo" aria-hidden="true">●</span> Ao vivo na Kampus, com chat aberto pra perguntar.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 05 · LIVES -->
+<section class="lives-faixa" id="lives">
+  <details class="lives">
+    <summary><span class="aovivo" aria-hidden="true">●</span><span class="lives-t">Já tem lives de aquecimento rolando. Gratuitas, às 19h, no Instagram e no YouTube da Koko.</span><span class="lives-mais" aria-hidden="true"><i class="px" data-px="mais"></i></span></summary>
+    <ul class="lives-lista">
+      <li><p class="lv-q"><b>26/11 · 19h</b> · Hec e Murilo</p><p class="lv-t">Como usar um agente de IA pra achar cliente na sua cidade</p></li>
+      <li><p class="lv-q"><b>16/12 · 19h</b> · Hec e Gab</p><p class="lv-t">Como criar propostas para clientes usando IA</p></li>
+      <li><p class="lv-q"><b>06/01 · 19h</b> · Hec e Isa</p><p class="lv-t">Como criar roteiros de vídeo usando IA</p></li>
+    </ul>
+  </details>
+</section>
+
+<!-- 06 · PARA QUEM É -->
+<section class="s quem" id="pra-quem" data-pontos>
+  <div class="cab">
+    <h2 class="h2" data-decode>Pra quem vive de criatividade e quer que a IA traga <mark>dinheiro, não só post.</mark></h2>
+  </div>
+  <ul class="perfis">
+    <li class="perfil"><i class="px" data-px="social" aria-hidden="true"></i><p><strong>Social media</strong> que quer vender mais que pacote de posts.</p></li>
+    <li class="perfil"><i class="px" data-px="designer" aria-hidden="true"></i><p><strong>Designer</strong> que quer entregar mais rápido e cobrar pelo que decide.</p></li>
+    <li class="perfil"><i class="px" data-px="agencia" aria-hidden="true"></i><p><strong>Dono de agência</strong> que quer serviço novo pra oferecer à carteira que já tem.</p></li>
+    <li class="perfil"><i class="px" data-px="freela" aria-hidden="true"></i><p><strong>Freelancer</strong> que quer achar cliente sem depender de indicação.</p></li>
+    <li class="perfil"><i class="px" data-px="abrir" aria-hidden="true"></i><p><strong>Quem quer abrir um negócio em 2027</strong> e quer começar já usando IA do jeito certo.</p></li>
+  </ul>
+  <p class="pilula">Não precisa saber programar. Precisa trazer o seu trabalho.</p>
+</section>
+
+<!-- 07 · QUEM CONDUZ -->
+<section class="s hec" id="quem-conduz" data-pontos>
+  <div class="hec-painel">
+    <figure class="hec-foto"><img src="img/hec_palco.jpg" alt="Hec falando no palco, de microfone na mão" width="1000" height="1298" loading="lazy" decoding="async"></figure>
+    <div class="hec-txt">
+      <p class="tag">Quem conduz a imersão</p>
+      <h2 class="h2" data-decode>Hec · fundador da Koko</h2>
+      <p class="lead">Fundou a Koko em 2015 com R$ 300, saindo da engenharia. O primeiro contrato foi de R$ 504 por mês. São 11 anos rodando agência, mais de 300 marcas atendidas, e hoje ele usa IA na operação da Koko todo dia. É ele quem conduz o sábado inteiro, das 10h às 18h.</p>
+    </div>
+    <ul class="numeros">
+      <li><b>11 anos</b><span>de agência rodando</span></li>
+      <li><b>300+</b><span>marcas atendidas</span></li>
+      <li><b>#2</b><span>agência mais engajada do Instagram (Zeeng 2025)</span></li>
+      <li><b>#5</b><span>melhores agências para trabalhar (GPTW 2024)</span></li>
+    </ul>
+  </div></section>
+
+<!-- 08 · INGRESSO -->
+<section class="s ingresso" id="ingresso" data-pontos>
+  <div class="cab">
+    <p class="tag tag-centro"><i class="px" data-px="faisca" aria-hidden="true"></i>Imersão Lucro Criativo</p>
+    <h2 class="h2" data-decode>Um sábado com a Koko por <mark>R$ 57.</mark></h2>
+  </div>
+  <div class="ticket-palco">
+    <div class="cruza cruza-ticket" aria-hidden="true">
+      <div class="cruza-f cruza-a"><div class="fita-trilho"><span>Lote único · R$ 57</span><i class="px" data-px="faisca"></i><span>Lote único · R$ 57</span><i class="px" data-px="faisca"></i><span>Lote único · R$ 57</span><i class="px" data-px="faisca"></i><span>Lote único · R$ 57</span><i class="px" data-px="faisca"></i><span>Lote único · R$ 57</span><i class="px" data-px="faisca"></i><span>Lote único · R$ 57</span><i class="px" data-px="faisca"></i><span>Lote único · R$ 57</span><i class="px" data-px="faisca"></i><span>Lote único · R$ 57</span><i class="px" data-px="faisca"></i></div></div>
+    </div>
+    <article class="ticket">
+      <div class="ticket-esq">
+        <img class="ticket-logo" src="img/LucroCriativo_principal_anybody_moeda_pixel_preto.svg" alt="Imersão Lucro Criativo" width="360" height="176">
+        <p class="ticket-nome">Imersão Lucro Criativo · lote único</p>
+        <ul class="inclui">
+          <li><i class="px" data-px="ok" aria-hidden="true"></i>O sábado inteiro, ao vivo, das 10h às 18h</li>
+          <li><i class="px" data-px="ok" aria-hidden="true"></i>As 5 ferramentas de IA (3 das lives + 2 do sábado)</li>
+          <li><i class="px" data-px="ok" aria-hidden="true"></i>Modelo de proposta com preço</li>
+          <li><i class="px" data-px="ok" aria-hidden="true"></i>Passo a passo de cada ferramenta</li>
+          <li><i class="px" data-px="ok" aria-hidden="true"></i>Área da imersão na Kampus: pesquisa rápida, aula de boas-vindas, materiais e grupo do WhatsApp</li>
+        </ul>
+        <ul class="chips chips-escuro" aria-label="Data e formato">
+          <li><i class="px" data-px="calendario" aria-hidden="true"></i>sábado, 16/01</li>
+          <li><i class="px" data-px="relogio" aria-hidden="true"></i>10h às 18h</li>
+          <li><i class="px" data-px="tela" aria-hidden="true"></i>ao vivo e online</li>
+        </ul>
+      </div>
+      <div class="ticket-dir">
+        <p class="preco"><span class="rs">R$</span>57</p>
+        <a class="btn btn-branco btn-full" data-compra="ingresso" href="https://checkout.koko.ag/lucro-criativo"><span class="btn-t"><span class="se-aberta">Quero meu ingresso por R$&nbsp;57</span><span class="se-antes">Abre hoje às 19h<span class="falta"> · faltam <span data-falta>--:--:--</span></span></span><span class="se-encerrada">Vendas encerradas</span></span><span class="btn-chip"><i class="px" data-px="seta"></i></span></a>
+        <p class="cta-linha"><span class="se-aberta">Venda aberta até sábado, 16/01, às 10h</span><span class="se-antes">A venda abre hoje, 26/11, às 19h, ao vivo</span><span class="se-encerrada">Vendas encerradas</span></p>
+        <p class="aviso">A parte prática usa o Claude, que pede o plano pago (Pro). Na aula de boas-vindas a gente mostra como deixar tudo pronto antes do sábado.</p>
+        <details class="vip">
+          <summary><span>Ingresso VIP · + R$ 147</span><i class="px" data-px="mais" aria-hidden="true"></i></summary>
+          <ul>
+            <li>Hot seat ao vivo na terça, 19/01, às 19h. São 2 horas, e você manda a sua pergunta antes.</li>
+            <li>Gravação editada do sábado, no ar por 15 dias, até 31/01.</li>
+            <li>Guia de abordagem de cliente: 63 mensagens prontas para achar, fechar e renovar clientes, do primeiro oi à renovação. Fica numa página na Kampus, pronto pra copiar, liberado na hora da compra.</li>
+          </ul>
+          <p class="vip-nota">É o único jeito de rever a imersão depois do sábado.</p>
+        </details>
+      </div>
+    </article>
+  </div>
+  <p class="smk">Aluno do SMK: seu ingresso é grátis. Entre na Kampus com a sua matrícula e retire em <a href="https://kampus.koko.ag/retirar-ingresso/lucro-criativo-2027">kampus.koko.ag/retirar-ingresso/lucro-criativo-2027</a></p>
+</section>
+
+<!-- 09 · PERGUNTAS -->
+<section class="s faq-s" id="faq" data-pontos>
+  <h2 class="h2 centro" data-decode>Perguntas frequentes</h2>
+  <div class="faq">
+    <details><summary><span>Preciso saber programar?</span><i class="px" data-px="seta_baixo" aria-hidden="true"></i></summary><p>Não. Tudo é feito no app do Claude, do jeito que você já conversa com uma IA.</p></details>
+    <details><summary><span>Preciso pagar alguma ferramenta?</span><i class="px" data-px="seta_baixo" aria-hidden="true"></i></summary><p>A parte prática usa o Claude no plano pago. Pra assistir, não precisa.</p></details>
+    <details><summary><span>Já uso bastante IA. Vale a pena?</span><i class="px" data-px="seta_baixo" aria-hidden="true"></i></summary><p>Vale se você usa pra fazer post e legenda. A imersão é sobre usar IA pra achar cliente, montar proposta e entregar serviço, e é isso que quase ninguém faz.</p></details>
+    <details><summary><span>Vai ficar gravado?</span><i class="px" data-px="seta_baixo" aria-hidden="true"></i></summary><p>A imersão é ao vivo, feita pra você assistir no sábado. A gravação editada é só pra quem leva o ingresso VIP (R$ 147) e fica no ar por 15 dias, até 31/01. Dá pra escolher o VIP na hora da compra.</p></details>
+    <details><summary><span>E as lives?</span><i class="px" data-px="seta_baixo" aria-hidden="true"></i></summary><p>São gratuitas, às 19h, no Instagram e no YouTube da Koko. A live de 26/11 fica com replay na Kampus.</p></details>
+    <details><summary><span>Quando recebo o acesso?</span><i class="px" data-px="seta_baixo" aria-hidden="true"></i></summary><p>Assim que o pagamento é confirmado, você recebe o acesso à área da imersão na Kampus.</p></details>
+    <details><summary><span>Até quando posso comprar?</span><i class="px" data-px="seta_baixo" aria-hidden="true"></i></summary><p>Até sábado, 16/01, às 10h, quando a imersão começa.</p></details>
+    <details><summary><span>O que é o ingresso VIP?</span><i class="px" data-px="seta_baixo" aria-hidden="true"></i></summary><p>É o ingresso com 3 coisas a mais, por R$ 147: hot seat ao vivo na terça, 19/01, às 19h (2 horas, com as perguntas enviadas antes), a gravação editada do sábado por 15 dias e o Guia de abordagem de cliente, com 63 mensagens prontas para achar, fechar e renovar clientes. Você escolhe na hora da compra.</p></details>
+    <details><summary><span>Sou aluno do SMK. Preciso comprar?</span><i class="px" data-px="seta_baixo" aria-hidden="true"></i></summary><p>Não. Seu ingresso é grátis: retire na Kampus com a sua matrícula ativa.</p></details>
+    <details><summary><span>Funciona pra quem ainda não tem negócio?</span><i class="px" data-px="seta_baixo" aria-hidden="true"></i></summary><p>Sim. Quem quer abrir um negócio em 2027 sai sabendo que serviço oferecer e com as ferramentas pra começar.</p></details>
+  </div>
+</section>
+
+<div class="subida" data-subida data-de="#F2F2F2" data-para="#0100FE" data-cores="#0100FE,#FF5A1F,#FFFFFF" aria-hidden="true" style="height:calc(6*max(14px,2.2vw));background:linear-gradient(#F2F2F2 calc(100% - max(14px,2.2vw)),#0100FE 0)"></div>
+<!-- 10 · FECHO -->
+<section class="fecho" id="fecho">
+  <canvas class="codigo" data-codigo data-codigo-semente="23" data-codigo-fundo="#0100FE" data-codigo-cor="#7F7FFF" data-codigo-opacidade="0.42" data-codigo-velocidade="0.6" aria-hidden="true"></canvas>
+  <div class="fecho-in">
+    <h2 class="h2" data-decode>Use a IA. <mark>Não seja usado por ela.</mark></h2>
+    <p class="lead">Daqui a pouco o seu cliente vai fazer sozinho o que você faz hoje com IA. Você pode continuar disputando quem posta mais rápido, ou pode passar um sábado aprendendo a fazer a IA trazer cliente, proposta e entrega pro seu negócio.</p>
+    <p class="data">Sábado, 16 de janeiro, das 10h às 18h, ao vivo.</p>
+    <p class="preco"><span class="rs">R$</span>57</p>
+    <a class="btn btn-branco" data-compra="fecho" href="https://checkout.koko.ag/lucro-criativo"><span class="btn-t"><span class="se-aberta">Quero meu ingresso por R$&nbsp;57</span><span class="se-antes">Abre hoje às 19h<span class="falta"> · faltam <span data-falta>--:--:--</span></span></span><span class="se-encerrada">Vendas encerradas</span></span><span class="btn-chip"><i class="px" data-px="seta"></i></span></a>
+  </div>
+</section>
+
+</main>
+
+<footer class="rodape">
+  <div class="rodape-in">
+    <img src="img/LucroCriativo_principal_anybody_moeda_pixel_branco.svg" alt="Imersão Lucro Criativo" width="220" height="108">
+    <div class="rodape-info"><p><b>Imersão Lucro Criativo</b></p><p>Koko · sábado, 16 de janeiro de 2027 · ao vivo e online</p></div>
+  </div>
+</footer>
+
+<script src="js/px.js" defer></script>
+<script src="js/logo-data.js" defer></script>
+<script src="js/logo.js" defer></script>
+<script src="js/moeda-heroi.js" defer></script>
+<script src="js/retrato.js" defer></script>
+<script src="js/codigo.js" defer></script>
+<script src="js/venda.js" defer></script>
+<script src="js/fx-decode.js" defer></script>
+<script src="js/fx-pontos.js" defer></script>
+<script src="js/fx-subida.js" defer></script>
+<script src="js/fx-moeda-texto.js" defer></script>
+<script src="js/fx-pilha.js" defer></script>
+<script src="js/lp.js" defer></script>
+</body>
+</html>
